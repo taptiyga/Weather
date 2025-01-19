@@ -45,10 +45,18 @@ body {
 }
 
 .search-box__input::placeholder {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500;
   color: #06283d;
   text-transform: none;
+}
+
+
+
+@media (max-width: 400px) {
+  .search-box__input::placeholder {
+    font-size: 15px;
+  }
 }
 
 .search-box__button {
@@ -102,8 +110,32 @@ body {
   font-size: 80px;
 }
 
+@media (max-width: 450px) {
+  .details i {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .details i {
+    font-size: 60px;
+  }
+}
+
 .details p {
   font-size: 28px;
+}
+
+@media (max-width: 450px) {
+  .details p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .details p {
+    font-size: 18px;
+  }
 }
 
 .weather-image i {
